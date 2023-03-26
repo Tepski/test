@@ -1,0 +1,9 @@
+{% extends 'index.html' %}
+
+{% block body %}
+<div class="container m-5 text-center">
+    <h1>PAGE 2</h1>
+    <a href="{% url 'home' %}" class="text-decoration-none border border-primary border-2 rounded-pill p-2">Back to home</a>
+    <a href="{% url 'page3' %}" class="text-decoration-none border border-primary border-2 rounded-pill p-2">to Page 3</a>
+</div>
+{% endblock %}
